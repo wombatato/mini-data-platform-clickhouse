@@ -3,7 +3,6 @@
 Учебный end-to-end проект по data engineering.
 Цель: знакомство и освоение инструментов без глубокого погружения в отдельные нюансы.
 ## О проекте
-* использовался датасет - https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 Проект демонстрирует полный цикл работы с данными:
 
 - загрузка сырых данных в object storage
@@ -57,3 +56,4 @@
 - Top Customers
 
 ## [Как запустить проект](start.md)
+* использовался датасет - https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
