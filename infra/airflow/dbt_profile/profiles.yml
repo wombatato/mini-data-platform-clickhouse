@@ -1,0 +1,12 @@
+olist_clickhouse:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: warehouse
+      host: clickhouse
+      port: 8123
+      user: ch_user
+      password: ch_pass_123
+      secure: false
+      threads: 1

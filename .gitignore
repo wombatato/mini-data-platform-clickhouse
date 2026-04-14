@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv_dbt/
+venv/
+
+# dbt
+dbt_olist/target/
+dbt_olist/dbt_packages/
+dbt_olist/logs/
+
+# Airflow logs / temp
+infra/airflow/logs/
+infra/airflow/config/simple_auth_manager_passwords.json
+
+# Local data
+data/
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Env files
+.env
+.env.*

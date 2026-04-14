@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: mart_sales_daily
+    columns:
+      - name: order_purchase_date
+        data_tests:
+          - not_null
+          - unique
+
+      - name: orders_count
+        data_tests:
+          - not_null
+
+      - name: revenue_total
+        data_tests:
+          - not_null
+
+  - name: mart_seller_quality
+    columns:
+      - name: seller_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: mart_customer_activity
+    columns:
+      - name: customer_unique_id
+        data_tests:
+          - not_null
+          - unique
